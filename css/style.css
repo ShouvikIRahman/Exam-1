@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.container{
+    width: 1140px;
+    margin: 80px auto 60px auto;
+}
+
+.one{
+    background-color: transparent;
+    height:310px;
+    width:50%;
+    float:left;
+}
+
+.one h1{
+    color:whitesmoke;
+    text-transform: uppercase;
+}
+
+span{
+    color:lightgreen;
+}
+
+.one p {
+    color: whitesmoke;
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+.one ul {
+    list-style-type: none;
+    color: whitesmoke;
+    margin: 10px auto 21px auto;
+    font-size: 25px;
+}
+
+.one ul li{
+    color:whitesmoke;
+}
+
+.btn {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    padding: 10px 15px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    font-size: 19px;
+    text-align: center;
+    margin: 30px 36%;
+}
+
+.two {
+    width: 33%;
+    height: 310px;
+    float: left;
+    background-color: cornflowerblue;
+    margin: 0 auto 0 42px;
+    text-align:center;
+}
+.form-content{
+    display:inline-block;
+}
+
+.two h1 {
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    margin: 10px auto 0px auto;
+}
+
+.two p {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin: 9px;
+}
+
+.form-control {
+    width: 95%;
+    color: grey;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    margin: 6px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: none;
+    padding: 2px 5px;
+}
+
+.form-button {
+    width: 96%;
+    color: whitesmoke;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    background-color: tomato;
+    border: none;
+    padding: 3px;
+    margin: 7px;
+}
+
